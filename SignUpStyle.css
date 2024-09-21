@@ -65,6 +65,8 @@ body {
 
 .colright {
     padding-left: 10rem;
+    display: flex;
+    align-items: center;
 }
 .SignupForm h2 {
     color: #2E3135;
@@ -99,6 +101,8 @@ body {
     align-items: center;
     gap: 0.5rem;
     flex: 1 0 0;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
 }
 .NameInfo {
     display: flex;
@@ -186,4 +190,10 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 1.5rem;
+}
+.Signtext {
+    padding-bottom: 5rem;
+}
+.Signtext p {
+    padding-top: 1.5rem;
 }
