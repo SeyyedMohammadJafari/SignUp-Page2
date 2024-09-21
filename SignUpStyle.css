@@ -150,3 +150,40 @@ body {
     border: #F5F5F5;
     width: 31rem;
 }
+.AllertforPass {
+    display: flex;
+    padding-top: 1rem;
+    color: #6C6D6F;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+.Signbutton {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    align-self: stretch;
+    border-radius: 0.5rem;
+    background: #002858;
+    width: 31rem;
+    color: #FFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-top: 2rem;
+}
+.ForgetPart {
+    padding-top: 2rem;
+}
+.ForgetPart p {
+    color: #4A4A4B;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
