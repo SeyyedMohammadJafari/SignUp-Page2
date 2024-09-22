@@ -181,3 +181,57 @@ body {
 .Signtext p {
     padding-top: 1.5rem;
 }
+.FirstStep {
+    display: flex;
+    width: 10.1875rem;
+    padding: 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    background: #FFF;
+    backdrop-filter: blur(15.999998092651367px);
+}
+.Num {
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0.42519rem 0.4375rem 0.44981rem 0.4375rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6.25rem;
+    background: #000;
+    color: white;
+}
+.SecNum {
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0.41356rem 0.4375rem 0.46144rem 0.4375rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6.25rem;
+    background: rgba(255, 255, 255, 0.16);
+}
+.SecondeStep {
+    display: flex;
+    width: 10.1875rem;
+    padding: 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(15.999998092651367px);
+    color: white;
+}
+.SignSteps {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 4rem;
+    padding-left: 2rem;
+}
